@@ -2,8 +2,46 @@
 // │ Your code here! │
 // └─────────────────┘
 
+function createUser(firstName, lastName){
+    let fullName = {
+        firstName: firstName,
+        lastName: lastName
+    }
+    return fullName;
+}
+ 
+function setAge(firstName1, lastName1, age){
+     let personAge = {
+         firstName1: firstName1,
+         lastName1: lastName1,
+         age: age,
+         }
 
+     return personAge; 
+ }
 
+function incrementAge(firstName2, lastName2, incAge){
+    let newAge = {
+        firstName2: firstName2,
+        lastName2: lastName2,
+        incAge: incAge 
+    }
+
+    return newAge;
+}
+
+function fixCar (make, model, year, needsMaintenance){
+    let repair = {
+        make: make,
+        model: model,
+        year: year,
+        needsMaintenance: needsMaintenance
+    }
+
+    return repair;
+
+    
+}
 
 
 
